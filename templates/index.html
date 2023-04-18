@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSV File Upload Form</title>
+</head>
+<body>
+	<h1>Upload a CSV File</h1>
+	<form action="/predict" method="post" enctype="multipart/form-data">
+		<label for="csvfile">Select a CSV file to upload:</label>
+		<input type="file" id="csvfile" name="csvfile">
+		<br><br>
+		<input type="submit" value="Upload File">
+	</form>
+    
+</body>
+</html>
+
