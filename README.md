@@ -4,7 +4,7 @@ An entry for CWB Hackathon 2023 for Carsome problem statement 1 of a Car Price P
 Run the 'application.py' code to run the model
 
 ## Files
-final-model.ipynb - notebook file of the model/n
+final-model.ipynb - notebook file of the model\n
 final-model.pkl - python pickle file of model
 application.py - python flask file for model deployment
 templates/index.html - html file for model deployment
