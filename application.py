@@ -21,9 +21,7 @@ def allowed_file(filename):
 
 # preprocess retrieved file
 def preprocess(df):
-    dfs=pd.read_excel("output.xlsx", sheet_name=None)
-
-    #dfs = {sheet_name: data_detail.parse(sheet_name) for sheet_name in data_detail.sheet_name}
+    dfs=pd.read_excel("encode_data.xlsx", sheet_name=None)
 
     # read dataframes to dictionary
     carbrand_transform=dfs['car_brand'].set_index('car_brand')['car_brand_rank'].to_dict()
