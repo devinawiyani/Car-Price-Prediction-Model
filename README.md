@@ -7,4 +7,6 @@ Run the 'application.py' code to run the model
 **final-model.ipynb** - notebook file of the model<br/>
 **final-model.pkl** - python pickle file of model<br/>
 **application.py** - python flask file for model deployment<br/>
-**templates/index.html** - html file for model deployment
+**templates/index.html** - html file for model deployment<br/>
+**encode_data.csv** - to list the number representation of the categories<br/> 
+**Test.csv** - dataset (without target cariable) to test the model<br/> 
